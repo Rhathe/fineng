@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*  Reset for some default browser CSS - General */
+
+body, div, h1, h2, h3, p, ul, ol, li, img, header, section, aside, footer, button {
+	margin: 0; padding: 0; border: 0; list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #961b25;
+}
+
+a:hover {
+	color: #6f92a7;
+}
+
+:focus {
+	outline: 0;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	font-weight: normal;
+} 
+
+h2 {
+	font-size: 22px;
+	line-height: 28px;
+}
+
+.float {
+	float:left;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 960px;
+	height: 100%;
+	margin-top: 10px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 0;
+	background: white;
+	font-family : "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}	
+
+/* MAIN */
+#tasks {
+	float: left;
+	width: 300px;
+}
+
+#graphs {
+	float: left;
+	margin-left: 10px;
+	width: 330px;
+}
+
+#data {
+	float: right;
+	width: 300px;
+}
+
+.column {
+	background: white;
+	border: 2px solid black;
+	min-height: 100%;
+}
+
+.boxpad {
+	padding: 10px;
+}

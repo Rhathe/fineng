@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Log in</title>
+<link href="/mymedia/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+
+	<header id="site_head">
+		<form action="/logout/" method="post">{% csrf_token %}
+			<input type="submit" name ="logbutton" value="Log Out" />
+		</form>
+	</header>
+
+	<div id="tasks" class="column">
+	<div class="boxpad">
+	Tasks
+	</div></div>
+	
+	<div id="graphs" class="column">
+	<div class="boxpad">
+	Welcome {{ username }}:
+	</div></div>
+	
+	<div id="data" class="column">
+	<div class="boxpad">
+	Positions
+	</div></div>
+
+</body>
+</html>
